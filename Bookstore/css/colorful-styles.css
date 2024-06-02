@@ -1,0 +1,154 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c1efff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff6f61;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.carousel-caption h5 {
+    background-color: rgba(255, 87, 34, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* Books Section */
+#books .card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#books .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+#books .card-title {
+    color: #ff6f61;
+}
+
+#books .card-text {
+    color: #555;
+}
+
+#books .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#books .btn-primary:hover {
+    background-color: #ff8a65;
+    border-color: #ff8a65;
+}
+
+#books .btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#books .btn-success:hover {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+
+/* Categories Section */
+#categories .card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#categories .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+#categories .card-title {
+    color: #ff6f61;
+}
+
+#categories .card-text {
+    color: #555;
+}
+
+#categories .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#categories .btn-primary:hover {
+    background-color: #ff8a65;
+    border-color: #ff8a65;
+}
+
+/* About Us Section */
+#about {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#contact .form-group label {
+    color: #ff6f61;
+}
+
+#contact .form-control {
+    border: 1px solid #ced4da;
+}
+
+#contact .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#contact .btn-primary:hover {
+    background-color: #ff8a65;
+    border-color: #ff8a65;
+}
